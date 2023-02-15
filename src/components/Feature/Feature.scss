@@ -1,0 +1,26 @@
+.feature{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    .wrapper{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        .feature-item{
+            position: relative;
+            cursor: pointer;
+            img{
+                border-radius: 10px;
+                width: 250px;
+            }
+            span{
+                position: absolute;
+                bottom: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background: rgba(238, 238, 238, 0.636);
+            }
+        }
+    }
+   
+}
