@@ -1,19 +1,22 @@
-.feature{
+.feature {
     display: flex;
     justify-content: center;
     margin: 40px 0;
-    .wrapper{
+
+    .wrapper {
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
-        .feature-item{
+
+        .feature-item {
             position: relative;
             cursor: pointer;
-            img{
+            img {
                 border-radius: 10px;
                 width: 250px;
             }
-            span{
+
+            span {
                 position: absolute;
                 bottom: 10px;
                 padding: 10px;
@@ -22,5 +25,17 @@
             }
         }
     }
-   
+
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        flex-direction: column;
+        .feature-item{
+            img{
+                width: 90vw;
+            }
+        }
+    }
+
 }
