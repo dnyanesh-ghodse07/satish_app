@@ -1,18 +1,18 @@
 .banner{
-    height: 40vh;
-    padding: 50px;
+    // height: 40vh;
+    padding: 100px;
     background:linear-gradient(0deg, rgba(29, 28, 28, 0.3), rgba(34, 32, 33, 0.3)), url("https://images.unsplash.com/photo-1605892234434-5cbbc2cc38e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRpbGVzJTIwJTI2JTIwZ3Jhbml0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
     background-size: cover;
     background-position: center;
     text-align: center;
-    border-radius: 10px;
+    // border-radius: 10px;
     .title{
-        font-size: 3em;
+        font-size: 4vw;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: antiquewhite;
     }
     .subtitle{
-        font-size: 1.5rem;
+        font-size: 1.3vw;
         font-weight: 400;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: azure;
